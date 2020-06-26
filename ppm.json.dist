@@ -1,0 +1,13 @@
+{
+  "bridge": "HttpKernel",
+  "host": "localhost",
+  "port": 80,
+  "workers": 1,
+  "app-env": "dev",
+  "debug": 1,
+  "logging": 0,
+  "bootstrap": "symfony",
+  "max-requests": 1000,
+  "concurrent-requests": true,
+  "static-directory": "public/"
+}
